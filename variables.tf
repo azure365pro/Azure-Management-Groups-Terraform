@@ -1,3 +1,10 @@
+/*Root Management Group
+
+ChildA0  ChildB0   childC0  childD0
+         ChildB1   childC1  childD1
+         childB2   childC2  childD2
+
+*/
 # Root Management Group
 variable "managementgroup" {
   type = string
