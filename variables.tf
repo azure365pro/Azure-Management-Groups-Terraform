@@ -45,12 +45,12 @@ variable "childgroupD0" {
   type = string
   default = "workloads"
 }
-# Level 2 Down Child Management Group of E0 (workloads) E1 , E2
+# Level 2 Down Child Management Group of D1 (workloads) E1 , E2
 variable "childgroupD1" { 
   type = string
   default = "businessunit1"
 }
-# Level 2 Down Child Management Group of E0 (workloads) E1 , E2
+# Level 2 Down Child Management Group of D2 (workloads) E1 , E2
 variable "childgroupD2" { 
   type = string
   default = "businessunit2"
