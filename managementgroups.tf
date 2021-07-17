@@ -42,23 +42,18 @@ resource "azurerm_management_group" "managementgroup_childC0" {
   parent_management_group_id = azurerm_management_group.managementgroup_parent.id
   }
 
-resource "azurerm_management_group" "managementgroup_childD0" {
+resource "azurerm_management_group" "managementgroup_childE0" {
   display_name               = var.childgroupD0
   parent_management_group_id = azurerm_management_group.managementgroup_parent.id
   }
 
-resource "azurerm_management_group" "managementgroup_childE0" {
-  display_name               = var.childgroupE0
-  parent_management_group_id = azurerm_management_group.managementgroup_parent.id
-  }
-
 resource "azurerm_management_group" "managementgroup_childE1" {
-  display_name               = var.childgroupE1
+  display_name               = var.childgroupD1
   parent_management_group_id = azurerm_management_group.managementgroup_childE0.id
   }
 
 resource "azurerm_management_group" "managementgroup_childE2" {
-  display_name               = var.childgroupE2
+  display_name               = var.childgroupD2
   parent_management_group_id = azurerm_management_group.managementgroup_childE0.id
   }
 
