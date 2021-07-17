@@ -38,25 +38,20 @@ variable "childgroupB3" {
 # Level 1 Down Child Management Group A0 , B0 , C0, D0 , E0
 variable "childgroupC0" { 
   type = string
-  default = "connectivity"
+  default = "sandbox"
 }
 # Level 1 Down Child Management Group A0 , B0 , C0, D0 , E0
 variable "childgroupD0" { 
   type = string
-  default = "sandbox"
-}
-# Level 1 Down Child Management Group A0 , B0 , C0, D0 , E0
-variable "childgroupE0" { 
-  type = string
   default = "workloads"
 }
 # Level 2 Down Child Management Group of E0 (workloads) E1 , E2
-variable "childgroupE1" { 
+variable "childgroupD1" { 
   type = string
   default = "businessunit1"
 }
 # Level 2 Down Child Management Group of E0 (workloads) E1 , E2
-variable "childgroupE2" { 
+variable "childgroupD2" { 
   type = string
   default = "businessunit2"
 }
